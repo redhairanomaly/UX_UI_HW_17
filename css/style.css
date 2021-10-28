@@ -2,6 +2,7 @@ body {
   margin: 0;
 }
 header {
+  display: flex;
   background-color: black;
   padding: 5px;
 }
@@ -25,8 +26,9 @@ padding: 1%;
   vertical-align: top;
 }
 .logo {
-  width: 23%;
-  padding: 1%;
+  width: 100px;
+  height: auto;
+  padding: 12px;
   text-align: left;
 }
 .heroImg {
