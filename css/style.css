@@ -7,9 +7,9 @@ body {
 #hero {
     background-image: url("../img/wireframePencils.jpg");
     background-repeat: no-repeat;
-    background-size: inherit;
+    background-size: cover;
     background-position:center;
-    height: 75vh;
+    height: calc(100vh - 75px);
     background-color: transparent;
 }
 
@@ -34,10 +34,11 @@ body {
 nav{
     padding-left: 40px;
     padding-right: 50px;
-    
-    
+    background-color: rgba(0, 0, 0, 0.87);  
 }
-
+.navbar-brand { 
+  color: white !important; 
+}
 nav .hamburger {
     width:180px ;
     text-align: right;
@@ -48,7 +49,9 @@ nav .hamburger {
     display: flex;
     align-items: center;
     justify-content: center;
-    height:60%;
+    height: inherit;
+    background-color: rgba(0, 0, 0, 0.57);
+    
 
 }
 
@@ -84,6 +87,10 @@ nav .hamburger {
     background-color: black;
 }
 
+.jumboContent {
+  justify-content: center;
+  align-items: center;
+}
 .profile {
 
   display: flex;
